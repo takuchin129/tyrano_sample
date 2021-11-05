@@ -1,45 +1,45 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="ワイのモーニングルーティーン"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「うわ、明日２限あんじゃん。絶対起きよ。」[l][r]
 
-メロスは激怒した。[l][r]
+就寝中、、、[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+ピピッ、ピピッ、ピピッ、。[l][r]
 
-(中略)[l][r]
+「９時じゃん誰だよこんな時間にセットしたやつ。」[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →一旦寝る [endlink][r]
+[link target=*tag_wake] →起きる [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=pexels-rodnae-productions-6069238.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+就寝中、、、[l][r]
+
+「うわ、やばいもう10時40分やんけ、開始直後に課題締め切って草。」[l][r]
+
+先生「ビデオオンにして欲しいなあ。どうしたらビデオオンにしてくれるんだよ、、、」[l][r]
+
+ワイは、ひどく絶望した。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_wake
 
-[bg storage=run.jpg time=500]
+[bg storage=pexels-rodnae-productions-6069245.jpg time=500]
 
-[cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+「さすが俺や。余裕やな。」[r]
 
 【 GOOD END 】[l][cm]
 
